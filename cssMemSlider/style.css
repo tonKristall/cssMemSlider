@@ -56,3 +56,16 @@ body {
   width: fill-available;
   border-radius: 1rem;
 }
+.discription {
+  width: 61%;
+  max-width: 25rem;
+  display: flex;
+  overflow: hidden;
+  color: aliceblue;
+}
+.discription-item {
+  min-width: 100%;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  background-color: var(--slider-color);
+}
