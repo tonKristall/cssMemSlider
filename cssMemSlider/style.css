@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 :root {
-  --main-color: #224079;
   --main-font: 'Roboto Slab', serif;
+  --main-color: #224079;
+  --slider-color: #525252;
 }
 
+body {
+  background-color: var(--main-color);
+}
 * {
   padding: 0;
   margin: 0;
@@ -21,4 +25,34 @@
   background-color: #ffffff;
   text-align: center;
   color: var(--main-color);
+}
+.container__main {
+  margin-top: 3rem;
+}
+.slider {
+  padding: 1.25rem;
+  width: 100%;
+  max-width: 100rem;
+  border-radius: 1rem;
+  background-color: var(--slider-color);
+}
+.slider-content {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.slider-content__top {
+  border-radius: 1rem;
+}
+.slider-item {
+  width: 100%;
+}
+.slider-item > img {
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
+  border-radius: 1rem;
 }
