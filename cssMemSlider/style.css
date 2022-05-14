@@ -95,7 +95,7 @@ label {
   transition: 0.3s;
 }
 label:hover {
-  background-color: #ffffff;
+  background-color: var(--main-color);
   transition: 0.3s;
   cursor: pointer;
 }
@@ -103,8 +103,9 @@ label:hover {
 #control_2:checked ~ .slider-content label:nth-of-type(2),
 #control_3:checked ~ .slider-content label:nth-of-type(3),
 #control_4:checked ~ .slider-content label:nth-of-type(4) {
-  background: #ffffff;
+  background-color: #ffffff;
   transition: 0.3s;
+  cursor: default;
 }
 #control_1:checked ~ .slider-content #slide_1,
 #control_1:checked ~ .slider-content #discription_1 {
