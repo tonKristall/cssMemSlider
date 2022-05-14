@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+:root {
+  --main-color: #224079;
+  --main-font: 'Roboto Slab', serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 1.25rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  background-color: #ffffff;
+  text-align: center;
+  color: var(--main-color);
+}
